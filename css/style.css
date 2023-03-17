@@ -47,7 +47,7 @@ img {
 
 /* LAYOUT */
 .container {
-    width: 1140px;
+    width: 1140px;   
     margin: 0 auto;
     padding: 0 20px;
 }
@@ -127,3 +127,4 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+
