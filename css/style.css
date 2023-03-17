@@ -128,3 +128,29 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
+ .container{
+    width: auto;
+}
+
+/* Desktop First */
+
+ @media (max-width:480px ) {
+
+    .row{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .row .col {
+        width: 100%;
+    }
+
+    .steps{
+        margin-bottom: 0;
+    }
+
+    .why-us{
+        background-color: black;
+        margin: 0;
+    }
+ } 
